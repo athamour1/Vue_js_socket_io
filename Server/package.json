@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "A way to learn sockets and vuejs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"ERROR: no test specified\" && exit 1",
