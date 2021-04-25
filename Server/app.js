@@ -9,6 +9,10 @@ var position = {
     y: 200
 };
 
+Socketio.on("connection", socket =>{
+    socket.emit("position", position);
+});
+
 Http.listen(3000, () => {
     console.log("Listeninng at :3000...");
 });
